@@ -1,0 +1,40 @@
+{
+  "rows": [
+    {
+      "exhaustive_val": 6,
+      "exhaustive_leaves": 36,
+      "ab_val": 6,
+      "ab_leaves": 18,
+      "pruned_leaves": 18,
+      "cert_id": "m1_wiki_36leaf_to_18leaf",
+      "mode": "fixed_tree_alphabeta_cert"
+    },
+    {
+      "exhaustive_val": 6,
+      "exhaustive_leaves": 11,
+      "ab_val": 6,
+      "ab_leaves": 8,
+      "pruned_leaves": 3,
+      "cert_id": "m1_asymmetric_history_tree",
+      "mode": "fixed_tree_alphabeta_cert"
+    },
+    {
+      "exhaustive_val": 5,
+      "exhaustive_leaves": 6,
+      "ab_val": 5,
+      "ab_leaves": 4,
+      "pruned_leaves": 2,
+      "cert_id": "m1_tied_pruning_trap_sec5",
+      "mode": "fixed_tree_alphabeta_cert"
+    },
+    {
+      "exhaustive_val": 6,
+      "exhaustive_leaves": 16,
+      "ab_val": 6,
+      "ab_leaves": 7,
+      "pruned_leaves": 9,
+      "cert_id": "m1_best_ordered_depth4_binary",
+      "mode": "fixed_tree_alphabeta_cert"
+    }
+  ]
+}

@@ -1,0 +1,249 @@
+{
+  "certificates": [
+    {
+      "cert_id": "m1_wiki_36leaf_to_18leaf",
+      "mode": "fixed_tree_alphabeta_cert",
+      "ok": true,
+      "verify_ns": 343700,
+      "summary": {
+        "exhaustive_val": 6,
+        "exhaustive_leaves": 36,
+        "ab_val": 6,
+        "ab_leaves": 18,
+        "pruned_leaves": 18,
+        "cert_id": "m1_wiki_36leaf_to_18leaf",
+        "mode": "fixed_tree_alphabeta_cert"
+      }
+    },
+    {
+      "cert_id": "m1_asymmetric_history_tree",
+      "mode": "fixed_tree_alphabeta_cert",
+      "ok": true,
+      "verify_ns": 137600,
+      "summary": {
+        "exhaustive_val": 6,
+        "exhaustive_leaves": 11,
+        "ab_val": 6,
+        "ab_leaves": 8,
+        "pruned_leaves": 3,
+        "cert_id": "m1_asymmetric_history_tree",
+        "mode": "fixed_tree_alphabeta_cert"
+      }
+    },
+    {
+      "cert_id": "m1_tied_pruning_trap_sec5",
+      "mode": "fixed_tree_alphabeta_cert",
+      "ok": true,
+      "verify_ns": 92700,
+      "summary": {
+        "exhaustive_val": 5,
+        "exhaustive_leaves": 6,
+        "ab_val": 5,
+        "ab_leaves": 4,
+        "pruned_leaves": 2,
+        "cert_id": "m1_tied_pruning_trap_sec5",
+        "mode": "fixed_tree_alphabeta_cert"
+      }
+    },
+    {
+      "cert_id": "m1_best_ordered_depth4_binary",
+      "mode": "fixed_tree_alphabeta_cert",
+      "ok": true,
+      "verify_ns": 180500,
+      "summary": {
+        "exhaustive_val": 6,
+        "exhaustive_leaves": 16,
+        "ab_val": 6,
+        "ab_leaves": 7,
+        "pruned_leaves": 9,
+        "cert_id": "m1_best_ordered_depth4_binary",
+        "mode": "fixed_tree_alphabeta_cert"
+      }
+    },
+    {
+      "cert_id": "m2_wiki_aspiration_windows",
+      "mode": "tie_breaking_and_window_cert",
+      "ok": true,
+      "verify_ns": 398400,
+      "summary": {
+        "exhaustive_val": 6,
+        "windows_checked": 5,
+        "regimes": [
+          "exact_window",
+          "exact_window",
+          "fail_low",
+          "fail_high",
+          "exact_window"
+        ],
+        "cert_id": "m2_wiki_aspiration_windows",
+        "mode": "tie_breaking_and_window_cert"
+      }
+    },
+    {
+      "cert_id": "m2_tie_trap_boundary_windows",
+      "mode": "tie_breaking_and_window_cert",
+      "ok": true,
+      "verify_ns": 118200,
+      "summary": {
+        "exhaustive_val": 5,
+        "windows_checked": 4,
+        "regimes": [
+          "exact_window",
+          "exact_window",
+          "fail_low",
+          "fail_high"
+        ],
+        "cert_id": "m2_tie_trap_boundary_windows",
+        "mode": "tie_breaking_and_window_cert"
+      }
+    },
+    {
+      "cert_id": "m2_asym_tree_windows",
+      "mode": "tie_breaking_and_window_cert",
+      "ok": true,
+      "verify_ns": 152300,
+      "summary": {
+        "exhaustive_val": 6,
+        "windows_checked": 4,
+        "regimes": [
+          "exact_window",
+          "exact_window",
+          "fail_low",
+          "fail_high"
+        ],
+        "cert_id": "m2_asym_tree_windows",
+        "mode": "tie_breaking_and_window_cert"
+      }
+    },
+    {
+      "cert_id": "m2_depth4_binary_windows",
+      "mode": "tie_breaking_and_window_cert",
+      "ok": true,
+      "verify_ns": 203100,
+      "summary": {
+        "exhaustive_val": 6,
+        "windows_checked": 4,
+        "regimes": [
+          "exact_window",
+          "exact_window",
+          "fail_low",
+          "fail_high"
+        ],
+        "cert_id": "m2_depth4_binary_windows",
+        "mode": "tie_breaking_and_window_cert"
+      }
+    },
+    {
+      "cert_id": "m3_opt_play_wiki_1000",
+      "mode": "optimal_play_witness_cert",
+      "ok": true,
+      "verify_ns": 304800,
+      "summary": {
+        "optimal_val": 6,
+        "play_len": 4,
+        "def2_verified": true,
+        "cert_id": "m3_opt_play_wiki_1000",
+        "mode": "optimal_play_witness_cert"
+      }
+    },
+    {
+      "cert_id": "m3_opt_play_tied_trap",
+      "mode": "optimal_play_witness_cert",
+      "ok": true,
+      "verify_ns": 92500,
+      "summary": {
+        "optimal_val": 5,
+        "play_len": 2,
+        "def2_verified": true,
+        "cert_id": "m3_opt_play_tied_trap",
+        "mode": "optimal_play_witness_cert"
+      }
+    },
+    {
+      "cert_id": "m3_opt_play_asymmetric_tree",
+      "mode": "optimal_play_witness_cert",
+      "ok": true,
+      "verify_ns": 124200,
+      "summary": {
+        "optimal_val": 6,
+        "play_len": 2,
+        "def2_verified": true,
+        "cert_id": "m3_opt_play_asymmetric_tree",
+        "mode": "optimal_play_witness_cert"
+      }
+    },
+    {
+      "cert_id": "m3_opt_play_best_depth4",
+      "mode": "optimal_play_witness_cert",
+      "ok": true,
+      "verify_ns": 189500,
+      "summary": {
+        "optimal_val": 6,
+        "play_len": 4,
+        "def2_verified": true,
+        "cert_id": "m3_opt_play_best_depth4",
+        "mode": "optimal_play_witness_cert"
+      }
+    },
+    {
+      "cert_id": "m4_ttt_full_root_362880_to_9335",
+      "mode": "history_dependent_ttt_cert",
+      "ok": true,
+      "verify_ns": 103001800,
+      "summary": {
+        "prefix_len": 0,
+        "exhaustive_leaves": 362880,
+        "ab_val": 0,
+        "ab_leaves": 9335,
+        "cor1b_exact": true,
+        "cert_id": "m4_ttt_full_root_362880_to_9335",
+        "mode": "history_dependent_ttt_cert"
+      }
+    },
+    {
+      "cert_id": "m4_ttt_subgame_ply3_draw",
+      "mode": "history_dependent_ttt_cert",
+      "ok": true,
+      "verify_ns": 8294900,
+      "summary": {
+        "prefix_len": 3,
+        "exhaustive_leaves": 720,
+        "ab_val": 0,
+        "ab_leaves": 68,
+        "cor1b_exact": true,
+        "cert_id": "m4_ttt_subgame_ply3_draw",
+        "mode": "history_dependent_ttt_cert"
+      }
+    },
+    {
+      "cert_id": "m4_ttt_subgame_ply4_forced_draw",
+      "mode": "history_dependent_ttt_cert",
+      "ok": true,
+      "verify_ns": 1891800,
+      "summary": {
+        "prefix_len": 4,
+        "exhaustive_leaves": 120,
+        "ab_val": 0,
+        "ab_leaves": 28,
+        "cor1b_exact": true,
+        "cert_id": "m4_ttt_subgame_ply4_forced_draw",
+        "mode": "history_dependent_ttt_cert"
+      }
+    },
+    {
+      "cert_id": "m4_ttt_subgame_ply3_x_wins_wide",
+      "mode": "history_dependent_ttt_cert",
+      "ok": true,
+      "verify_ns": 9136100,
+      "summary": {
+        "prefix_len": 3,
+        "exhaustive_leaves": 720,
+        "ab_val": 1,
+        "ab_leaves": 137,
+        "cor1b_exact": true,
+        "cert_id": "m4_ttt_subgame_ply3_x_wins_wide",
+        "mode": "history_dependent_ttt_cert"
+      }
+    }
+  ]
+}

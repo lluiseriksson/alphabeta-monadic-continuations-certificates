@@ -1,0 +1,545 @@
+{
+  "schema_version": "ALPHABETA-MONAD-CERT-1.0",
+  "cert_id": "m1_wiki_36leaf_to_18leaf",
+  "mode": "fixed_tree_alphabeta_cert",
+  "reference": "Escardo-Oliva arXiv:2611.32320 Sec. 2.2/3.3/5 (Wikipedia 36->18 tree)",
+  "payload": {
+    "tree": {
+      "kind": "max",
+      "moves": [
+        0,
+        1,
+        2
+      ],
+      "children": [
+        {
+          "kind": "min",
+          "moves": [
+            0,
+            1
+          ],
+          "children": [
+            {
+              "kind": "max",
+              "moves": [
+                0,
+                1
+              ],
+              "children": [
+                {
+                  "kind": "min",
+                  "moves": [
+                    0,
+                    1,
+                    2
+                  ],
+                  "children": [
+                    {
+                      "kind": "leaf",
+                      "val": 5
+                    },
+                    {
+                      "kind": "leaf",
+                      "val": 6
+                    },
+                    {
+                      "kind": "leaf",
+                      "val": 6
+                    }
+                  ]
+                },
+                {
+                  "kind": "min",
+                  "moves": [
+                    0,
+                    1,
+                    2
+                  ],
+                  "children": [
+                    {
+                      "kind": "leaf",
+                      "val": 7
+                    },
+                    {
+                      "kind": "leaf",
+                      "val": 4
+                    },
+                    {
+                      "kind": "leaf",
+                      "val": 5
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "max",
+              "moves": [
+                0,
+                1
+              ],
+              "children": [
+                {
+                  "kind": "min",
+                  "moves": [
+                    0,
+                    1,
+                    2
+                  ],
+                  "children": [
+                    {
+                      "kind": "leaf",
+                      "val": 3
+                    },
+                    {
+                      "kind": "leaf",
+                      "val": 3
+                    },
+                    {
+                      "kind": "leaf",
+                      "val": 3
+                    }
+                  ]
+                },
+                {
+                  "kind": "min",
+                  "moves": [
+                    0,
+                    1,
+                    2
+                  ],
+                  "children": [
+                    {
+                      "kind": "leaf",
+                      "val": 3
+                    },
+                    {
+                      "kind": "leaf",
+                      "val": 3
+                    },
+                    {
+                      "kind": "leaf",
+                      "val": 3
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "min",
+          "moves": [
+            0,
+            1
+          ],
+          "children": [
+            {
+              "kind": "max",
+              "moves": [
+                0,
+                1
+              ],
+              "children": [
+                {
+                  "kind": "min",
+                  "moves": [
+                    0,
+                    1,
+                    2
+                  ],
+                  "children": [
+                    {
+                      "kind": "leaf",
+                      "val": 6
+                    },
+                    {
+                      "kind": "leaf",
+                      "val": 6
+                    },
+                    {
+                      "kind": "leaf",
+                      "val": 6
+                    }
+                  ]
+                },
+                {
+                  "kind": "min",
+                  "moves": [
+                    0,
+                    1,
+                    2
+                  ],
+                  "children": [
+                    {
+                      "kind": "leaf",
+                      "val": 6
+                    },
+                    {
+                      "kind": "leaf",
+                      "val": 9
+                    },
+                    {
+                      "kind": "leaf",
+                      "val": 9
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "max",
+              "moves": [
+                0,
+                1
+              ],
+              "children": [
+                {
+                  "kind": "min",
+                  "moves": [
+                    0,
+                    1,
+                    2
+                  ],
+                  "children": [
+                    {
+                      "kind": "leaf",
+                      "val": 7
+                    },
+                    {
+                      "kind": "leaf",
+                      "val": 7
+                    },
+                    {
+                      "kind": "leaf",
+                      "val": 7
+                    }
+                  ]
+                },
+                {
+                  "kind": "min",
+                  "moves": [
+                    0,
+                    1,
+                    2
+                  ],
+                  "children": [
+                    {
+                      "kind": "leaf",
+                      "val": 7
+                    },
+                    {
+                      "kind": "leaf",
+                      "val": 7
+                    },
+                    {
+                      "kind": "leaf",
+                      "val": 7
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "min",
+          "moves": [
+            0,
+            1
+          ],
+          "children": [
+            {
+              "kind": "max",
+              "moves": [
+                0,
+                1
+              ],
+              "children": [
+                {
+                  "kind": "min",
+                  "moves": [
+                    0,
+                    1,
+                    2
+                  ],
+                  "children": [
+                    {
+                      "kind": "leaf",
+                      "val": 5
+                    },
+                    {
+                      "kind": "leaf",
+                      "val": 5
+                    },
+                    {
+                      "kind": "leaf",
+                      "val": 5
+                    }
+                  ]
+                },
+                {
+                  "kind": "min",
+                  "moves": [
+                    0,
+                    1,
+                    2
+                  ],
+                  "children": [
+                    {
+                      "kind": "leaf",
+                      "val": 5
+                    },
+                    {
+                      "kind": "leaf",
+                      "val": 5
+                    },
+                    {
+                      "kind": "leaf",
+                      "val": 5
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "max",
+              "moves": [
+                0,
+                1
+              ],
+              "children": [
+                {
+                  "kind": "min",
+                  "moves": [
+                    0,
+                    1,
+                    2
+                  ],
+                  "children": [
+                    {
+                      "kind": "leaf",
+                      "val": 9
+                    },
+                    {
+                      "kind": "leaf",
+                      "val": 9
+                    },
+                    {
+                      "kind": "leaf",
+                      "val": 9
+                    }
+                  ]
+                },
+                {
+                  "kind": "min",
+                  "moves": [
+                    0,
+                    1,
+                    2
+                  ],
+                  "children": [
+                    {
+                      "kind": "leaf",
+                      "val": 9
+                    },
+                    {
+                      "kind": "leaf",
+                      "val": 9
+                    },
+                    {
+                      "kind": "leaf",
+                      "val": 9
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "alpha": -1000,
+    "beta": 1000,
+    "claimed_exhaustive_val": 6,
+    "claimed_exhaustive_play": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "claimed_exhaustive_leaves": 36,
+    "claimed_ab_val": 6,
+    "claimed_ab_play": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "claimed_ab_leaves": 18,
+    "claimed_ab_trace": [
+      [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        5
+      ],
+      [
+        [
+          0,
+          0,
+          0,
+          1
+        ],
+        6
+      ],
+      [
+        [
+          0,
+          0,
+          0,
+          2
+        ],
+        6
+      ],
+      [
+        [
+          0,
+          0,
+          1,
+          0
+        ],
+        7
+      ],
+      [
+        [
+          0,
+          0,
+          1,
+          1
+        ],
+        4
+      ],
+      [
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        3
+      ],
+      [
+        [
+          0,
+          1,
+          0,
+          1
+        ],
+        3
+      ],
+      [
+        [
+          0,
+          1,
+          0,
+          2
+        ],
+        3
+      ],
+      [
+        [
+          0,
+          1,
+          1,
+          0
+        ],
+        3
+      ],
+      [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        6
+      ],
+      [
+        [
+          1,
+          0,
+          0,
+          1
+        ],
+        6
+      ],
+      [
+        [
+          1,
+          0,
+          0,
+          2
+        ],
+        6
+      ],
+      [
+        [
+          1,
+          0,
+          1,
+          0
+        ],
+        6
+      ],
+      [
+        [
+          1,
+          1,
+          0,
+          0
+        ],
+        7
+      ],
+      [
+        [
+          1,
+          1,
+          0,
+          1
+        ],
+        7
+      ],
+      [
+        [
+          1,
+          1,
+          0,
+          2
+        ],
+        7
+      ],
+      [
+        [
+          2,
+          0,
+          0,
+          0
+        ],
+        5
+      ],
+      [
+        [
+          2,
+          0,
+          1,
+          0
+        ],
+        5
+      ]
+    ]
+  }
+}

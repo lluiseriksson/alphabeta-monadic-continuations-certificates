@@ -1,0 +1,31 @@
+{
+  "schema_version": "ALPHABETA-MONAD-CERT-1.0",
+  "cert_id": "m4_ttt_subgame_ply3_x_wins_wide",
+  "mode": "history_dependent_ttt_cert",
+  "reference": "Escardo-Oliva arXiv:2611.32320 Sec. 6.2 (Tic-Tac-Toe [0,1,4] X win under (-2,2))",
+  "payload": {
+    "prefix_moves": [
+      0,
+      1,
+      4
+    ],
+    "alpha": -2,
+    "beta": 2,
+    "verify_exhaustive_subgame": true,
+    "claimed_exhaustive_leaves": 720,
+    "claimed_ab_val": 1,
+    "claimed_ab_play": [
+      0,
+      1,
+      4,
+      2,
+      3,
+      5,
+      6,
+      7,
+      8
+    ],
+    "claimed_ab_leaves": 137,
+    "claimed_cor1b_exact": true
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": "ALPHABETA-MONAD-CERT-1.0",
+  "cert_id": "m4_ttt_full_root_362880_to_9335",
+  "mode": "history_dependent_ttt_cert",
+  "reference": "Escardo-Oliva arXiv:2611.32320 Sec. 6.2 (full Tic-Tac-Toe 9!=362880->9335)",
+  "payload": {
+    "prefix_moves": [],
+    "alpha": -1,
+    "beta": 1,
+    "verify_exhaustive_subgame": false,
+    "claimed_exhaustive_leaves": 362880,
+    "claimed_ab_val": 0,
+    "claimed_ab_play": [
+      0,
+      4,
+      1,
+      2,
+      6,
+      3,
+      5,
+      7,
+      8
+    ],
+    "claimed_ab_leaves": 9335,
+    "claimed_cor1b_exact": true
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "schema_version": "ALPHABETA-MONAD-CERT-1.0",
+  "cert_id": "m3_opt_play_asymmetric_tree",
+  "mode": "optimal_play_witness_cert",
+  "reference": "Escardo-Oliva arXiv:2611.32320 Sec. 6.1 Def. 2 (history-dependent play)",
+  "payload": {
+    "tree": {
+      "kind": "max",
+      "moves": [
+        0,
+        1,
+        2
+      ],
+      "children": [
+        {
+          "kind": "min",
+          "moves": [
+            0,
+            1
+          ],
+          "children": [
+            {
+              "kind": "leaf",
+              "val": 4
+            },
+            {
+              "kind": "max",
+              "moves": [
+                0,
+                1,
+                2
+              ],
+              "children": [
+                {
+                  "kind": "leaf",
+                  "val": 2
+                },
+                {
+                  "kind": "leaf",
+                  "val": 8
+                },
+                {
+                  "kind": "leaf",
+                  "val": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "min",
+          "moves": [
+            0,
+            1,
+            2
+          ],
+          "children": [
+            {
+              "kind": "max",
+              "moves": [
+                0,
+                1
+              ],
+              "children": [
+                {
+                  "kind": "leaf",
+                  "val": 7
+                },
+                {
+                  "kind": "leaf",
+                  "val": 5
+                }
+              ]
+            },
+            {
+              "kind": "leaf",
+              "val": 6
+            },
+            {
+              "kind": "max",
+              "moves": [
+                0,
+                1
+              ],
+              "children": [
+                {
+                  "kind": "leaf",
+                  "val": 9
+                },
+                {
+                  "kind": "leaf",
+                  "val": 3
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "min",
+          "moves": [
+            0,
+            1
+          ],
+          "children": [
+            {
+              "kind": "leaf",
+              "val": 5
+            },
+            {
+              "kind": "leaf",
+              "val": 10
+            }
+          ]
+        }
+      ]
+    },
+    "alpha": 0,
+    "beta": 20,
+    "claimed_optimal_val": 6,
+    "claimed_optimal_play": [
+      1,
+      1
+    ],
+    "claimed_ply_values": [
+      6,
+      6,
+      6
+    ],
+    "claimed_def2_optimal": true
+  }
+}

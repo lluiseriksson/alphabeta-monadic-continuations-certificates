@@ -1,0 +1,8 @@
+[project]
+name = "alphabeta-monadic-continuations-certificates"
+version = "1.0.0"
+description = "Machine-checked Lean 4.35.0 formalization and exact discrete certificate verifier for Alpha-Beta Pruning via Monadic Continuations (Escardo & Oliva, arXiv:2611.32320)"
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "Lluis Eriksson" }]
+requires-python = ">=3.11"

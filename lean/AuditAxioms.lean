@@ -1,0 +1,20 @@
+import AlphaBetaMonadic
+
+#print axioms AlphaBetaMonadic.pickMax_val_eq_max
+#print axioms AlphaBetaMonadic.pickMin_val_eq_min
+#print axioms AlphaBetaMonadic.pickMax_first_tie_preserves
+#print axioms AlphaBetaMonadic.pickMin_first_tie_preserves
+#print axioms AlphaBetaMonadic.takeUntil_nonempty_of_nonempty
+#print axioms AlphaBetaMonadic.takeUntil_all_false_eq_self
+#print axioms AlphaBetaMonadic.takeUntil_head_ge_stops
+#print axioms AlphaBetaMonadic.reader_monad_laws
+#print axioms AlphaBetaMonadic.continuation_monad_laws
+#print axioms AlphaBetaMonadic.lemma2_max_fail_low
+#print axioms AlphaBetaMonadic.lemma2_max_fail_high
+#print axioms AlphaBetaMonadic.lemma2_min_fail_high
+#print axioms AlphaBetaMonadic.lemma2_min_fail_low
+#print axioms AlphaBetaMonadic.theorem1_alphabeta_soundness
+#print axioms AlphaBetaMonadic.corollary1a_strict_global_bounds
+#print axioms AlphaBetaMonadic.corollary1b_in_window_exactness
+#print axioms AlphaBetaMonadic.corollary2_optimal_play_soundness
+#print axioms AlphaBetaMonadic.wikipedia_example_tree_exact_pruning

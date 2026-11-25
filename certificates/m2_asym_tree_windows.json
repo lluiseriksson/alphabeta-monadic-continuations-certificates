@@ -1,0 +1,169 @@
+{
+  "schema_version": "ALPHABETA-MONAD-CERT-1.0",
+  "cert_id": "m2_asym_tree_windows",
+  "mode": "tie_breaking_and_window_cert",
+  "reference": "Escardo-Oliva arXiv:2611.32320 Thm. 1 (asymmetric tree windows)",
+  "payload": {
+    "tree": {
+      "kind": "max",
+      "moves": [
+        0,
+        1,
+        2
+      ],
+      "children": [
+        {
+          "kind": "min",
+          "moves": [
+            0,
+            1
+          ],
+          "children": [
+            {
+              "kind": "leaf",
+              "val": 4
+            },
+            {
+              "kind": "max",
+              "moves": [
+                0,
+                1,
+                2
+              ],
+              "children": [
+                {
+                  "kind": "leaf",
+                  "val": 2
+                },
+                {
+                  "kind": "leaf",
+                  "val": 8
+                },
+                {
+                  "kind": "leaf",
+                  "val": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "min",
+          "moves": [
+            0,
+            1,
+            2
+          ],
+          "children": [
+            {
+              "kind": "max",
+              "moves": [
+                0,
+                1
+              ],
+              "children": [
+                {
+                  "kind": "leaf",
+                  "val": 7
+                },
+                {
+                  "kind": "leaf",
+                  "val": 5
+                }
+              ]
+            },
+            {
+              "kind": "leaf",
+              "val": 6
+            },
+            {
+              "kind": "max",
+              "moves": [
+                0,
+                1
+              ],
+              "children": [
+                {
+                  "kind": "leaf",
+                  "val": 9
+                },
+                {
+                  "kind": "leaf",
+                  "val": 3
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "min",
+          "moves": [
+            0,
+            1
+          ],
+          "children": [
+            {
+              "kind": "leaf",
+              "val": 5
+            },
+            {
+              "kind": "leaf",
+              "val": 10
+            }
+          ]
+        }
+      ]
+    },
+    "claimed_exhaustive_val": 6,
+    "claimed_exhaustive_play": [
+      1,
+      1
+    ],
+    "window_checks": [
+      {
+        "alpha": -50,
+        "beta": 50,
+        "claimed_regime": "exact_window",
+        "claimed_ab_val": 6,
+        "claimed_ab_play": [
+          1,
+          1
+        ],
+        "claimed_ab_leaves": 8
+      },
+      {
+        "alpha": 5,
+        "beta": 7,
+        "claimed_regime": "exact_window",
+        "claimed_ab_val": 6,
+        "claimed_ab_play": [
+          1,
+          1
+        ],
+        "claimed_ab_leaves": 5
+      },
+      {
+        "alpha": 6,
+        "beta": 9,
+        "claimed_regime": "fail_low",
+        "claimed_ab_val": 6,
+        "claimed_ab_play": [
+          1,
+          1
+        ],
+        "claimed_ab_leaves": 5
+      },
+      {
+        "alpha": 2,
+        "beta": 6,
+        "claimed_regime": "fail_high",
+        "claimed_ab_val": 6,
+        "claimed_ab_play": [
+          1,
+          1
+        ],
+        "claimed_ab_leaves": 6
+      }
+    ]
+  }
+}

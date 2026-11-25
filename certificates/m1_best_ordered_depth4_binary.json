@@ -1,0 +1,290 @@
+{
+  "schema_version": "ALPHABETA-MONAD-CERT-1.0",
+  "cert_id": "m1_best_ordered_depth4_binary",
+  "mode": "fixed_tree_alphabeta_cert",
+  "reference": "Escardo-Oliva arXiv:2611.32320 Sec. 3 (best-ordered depth-4 tree)",
+  "payload": {
+    "tree": {
+      "kind": "max",
+      "moves": [
+        0,
+        1
+      ],
+      "children": [
+        {
+          "kind": "min",
+          "moves": [
+            0,
+            1
+          ],
+          "children": [
+            {
+              "kind": "max",
+              "moves": [
+                0,
+                1
+              ],
+              "children": [
+                {
+                  "kind": "min",
+                  "moves": [
+                    0,
+                    1
+                  ],
+                  "children": [
+                    {
+                      "kind": "leaf",
+                      "val": 6
+                    },
+                    {
+                      "kind": "leaf",
+                      "val": 8
+                    }
+                  ]
+                },
+                {
+                  "kind": "min",
+                  "moves": [
+                    0,
+                    1
+                  ],
+                  "children": [
+                    {
+                      "kind": "leaf",
+                      "val": 5
+                    },
+                    {
+                      "kind": "leaf",
+                      "val": 9
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "max",
+              "moves": [
+                0,
+                1
+              ],
+              "children": [
+                {
+                  "kind": "min",
+                  "moves": [
+                    0,
+                    1
+                  ],
+                  "children": [
+                    {
+                      "kind": "leaf",
+                      "val": 7
+                    },
+                    {
+                      "kind": "leaf",
+                      "val": 10
+                    }
+                  ]
+                },
+                {
+                  "kind": "min",
+                  "moves": [
+                    0,
+                    1
+                  ],
+                  "children": [
+                    {
+                      "kind": "leaf",
+                      "val": 8
+                    },
+                    {
+                      "kind": "leaf",
+                      "val": 11
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "min",
+          "moves": [
+            0,
+            1
+          ],
+          "children": [
+            {
+              "kind": "max",
+              "moves": [
+                0,
+                1
+              ],
+              "children": [
+                {
+                  "kind": "min",
+                  "moves": [
+                    0,
+                    1
+                  ],
+                  "children": [
+                    {
+                      "kind": "leaf",
+                      "val": 4
+                    },
+                    {
+                      "kind": "leaf",
+                      "val": 7
+                    }
+                  ]
+                },
+                {
+                  "kind": "min",
+                  "moves": [
+                    0,
+                    1
+                  ],
+                  "children": [
+                    {
+                      "kind": "leaf",
+                      "val": 3
+                    },
+                    {
+                      "kind": "leaf",
+                      "val": 9
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "max",
+              "moves": [
+                0,
+                1
+              ],
+              "children": [
+                {
+                  "kind": "min",
+                  "moves": [
+                    0,
+                    1
+                  ],
+                  "children": [
+                    {
+                      "kind": "leaf",
+                      "val": 2
+                    },
+                    {
+                      "kind": "leaf",
+                      "val": 5
+                    }
+                  ]
+                },
+                {
+                  "kind": "min",
+                  "moves": [
+                    0,
+                    1
+                  ],
+                  "children": [
+                    {
+                      "kind": "leaf",
+                      "val": 1
+                    },
+                    {
+                      "kind": "leaf",
+                      "val": 6
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "alpha": -100,
+    "beta": 100,
+    "claimed_exhaustive_val": 6,
+    "claimed_exhaustive_play": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "claimed_exhaustive_leaves": 16,
+    "claimed_ab_val": 6,
+    "claimed_ab_play": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "claimed_ab_leaves": 7,
+    "claimed_ab_trace": [
+      [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        6
+      ],
+      [
+        [
+          0,
+          0,
+          0,
+          1
+        ],
+        8
+      ],
+      [
+        [
+          0,
+          0,
+          1,
+          0
+        ],
+        5
+      ],
+      [
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        7
+      ],
+      [
+        [
+          0,
+          1,
+          0,
+          1
+        ],
+        10
+      ],
+      [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        4
+      ],
+      [
+        [
+          1,
+          0,
+          1,
+          0
+        ],
+        3
+      ]
+    ]
+  }
+}

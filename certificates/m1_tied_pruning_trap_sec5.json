@@ -1,0 +1,113 @@
+{
+  "schema_version": "ALPHABETA-MONAD-CERT-1.0",
+  "cert_id": "m1_tied_pruning_trap_sec5",
+  "mode": "fixed_tree_alphabeta_cert",
+  "reference": "Escardo-Oliva arXiv:2611.32320 Sec. 5 (pickMax tie-breaking trap)",
+  "payload": {
+    "tree": {
+      "kind": "max",
+      "moves": [
+        0,
+        1,
+        2
+      ],
+      "children": [
+        {
+          "kind": "min",
+          "moves": [
+            0,
+            1
+          ],
+          "children": [
+            {
+              "kind": "leaf",
+              "val": 8
+            },
+            {
+              "kind": "leaf",
+              "val": 5
+            }
+          ]
+        },
+        {
+          "kind": "min",
+          "moves": [
+            0,
+            1
+          ],
+          "children": [
+            {
+              "kind": "leaf",
+              "val": 5
+            },
+            {
+              "kind": "leaf",
+              "val": 2
+            }
+          ]
+        },
+        {
+          "kind": "min",
+          "moves": [
+            0,
+            1
+          ],
+          "children": [
+            {
+              "kind": "leaf",
+              "val": 5
+            },
+            {
+              "kind": "leaf",
+              "val": 1
+            }
+          ]
+        }
+      ]
+    },
+    "alpha": -100,
+    "beta": 100,
+    "claimed_exhaustive_val": 5,
+    "claimed_exhaustive_play": [
+      0,
+      1
+    ],
+    "claimed_exhaustive_leaves": 6,
+    "claimed_ab_val": 5,
+    "claimed_ab_play": [
+      0,
+      1
+    ],
+    "claimed_ab_leaves": 4,
+    "claimed_ab_trace": [
+      [
+        [
+          0,
+          0
+        ],
+        8
+      ],
+      [
+        [
+          0,
+          1
+        ],
+        5
+      ],
+      [
+        [
+          1,
+          0
+        ],
+        5
+      ],
+      [
+        [
+          2,
+          0
+        ],
+        5
+      ]
+    ]
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "schema_version": "ALPHABETA-MONAD-CERT-1.0",
+  "cert_id": "m3_opt_play_tied_trap",
+  "mode": "optimal_play_witness_cert",
+  "reference": "Escardo-Oliva arXiv:2611.32320 Sec. 5 Def. 2 (tied-bound optimal play)",
+  "payload": {
+    "tree": {
+      "kind": "max",
+      "moves": [
+        0,
+        1,
+        2
+      ],
+      "children": [
+        {
+          "kind": "min",
+          "moves": [
+            0,
+            1
+          ],
+          "children": [
+            {
+              "kind": "leaf",
+              "val": 8
+            },
+            {
+              "kind": "leaf",
+              "val": 5
+            }
+          ]
+        },
+        {
+          "kind": "min",
+          "moves": [
+            0,
+            1
+          ],
+          "children": [
+            {
+              "kind": "leaf",
+              "val": 5
+            },
+            {
+              "kind": "leaf",
+              "val": 2
+            }
+          ]
+        },
+        {
+          "kind": "min",
+          "moves": [
+            0,
+            1
+          ],
+          "children": [
+            {
+              "kind": "leaf",
+              "val": 5
+            },
+            {
+              "kind": "leaf",
+              "val": 1
+            }
+          ]
+        }
+      ]
+    },
+    "alpha": 0,
+    "beta": 10,
+    "claimed_optimal_val": 5,
+    "claimed_optimal_play": [
+      0,
+      1
+    ],
+    "claimed_ply_values": [
+      5,
+      5,
+      5
+    ],
+    "claimed_def2_optimal": true
+  }
+}

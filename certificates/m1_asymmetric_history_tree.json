@@ -1,0 +1,195 @@
+{
+  "schema_version": "ALPHABETA-MONAD-CERT-1.0",
+  "cert_id": "m1_asymmetric_history_tree",
+  "mode": "fixed_tree_alphabeta_cert",
+  "reference": "Escardo-Oliva arXiv:2611.32320 Sec. 6.1 (variable-depth history tree)",
+  "payload": {
+    "tree": {
+      "kind": "max",
+      "moves": [
+        0,
+        1,
+        2
+      ],
+      "children": [
+        {
+          "kind": "min",
+          "moves": [
+            0,
+            1
+          ],
+          "children": [
+            {
+              "kind": "leaf",
+              "val": 4
+            },
+            {
+              "kind": "max",
+              "moves": [
+                0,
+                1,
+                2
+              ],
+              "children": [
+                {
+                  "kind": "leaf",
+                  "val": 2
+                },
+                {
+                  "kind": "leaf",
+                  "val": 8
+                },
+                {
+                  "kind": "leaf",
+                  "val": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "min",
+          "moves": [
+            0,
+            1,
+            2
+          ],
+          "children": [
+            {
+              "kind": "max",
+              "moves": [
+                0,
+                1
+              ],
+              "children": [
+                {
+                  "kind": "leaf",
+                  "val": 7
+                },
+                {
+                  "kind": "leaf",
+                  "val": 5
+                }
+              ]
+            },
+            {
+              "kind": "leaf",
+              "val": 6
+            },
+            {
+              "kind": "max",
+              "moves": [
+                0,
+                1
+              ],
+              "children": [
+                {
+                  "kind": "leaf",
+                  "val": 9
+                },
+                {
+                  "kind": "leaf",
+                  "val": 3
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "min",
+          "moves": [
+            0,
+            1
+          ],
+          "children": [
+            {
+              "kind": "leaf",
+              "val": 5
+            },
+            {
+              "kind": "leaf",
+              "val": 10
+            }
+          ]
+        }
+      ]
+    },
+    "alpha": -100,
+    "beta": 100,
+    "claimed_exhaustive_val": 6,
+    "claimed_exhaustive_play": [
+      1,
+      1
+    ],
+    "claimed_exhaustive_leaves": 11,
+    "claimed_ab_val": 6,
+    "claimed_ab_play": [
+      1,
+      1
+    ],
+    "claimed_ab_leaves": 8,
+    "claimed_ab_trace": [
+      [
+        [
+          0,
+          0
+        ],
+        4
+      ],
+      [
+        [
+          0,
+          1,
+          0
+        ],
+        2
+      ],
+      [
+        [
+          0,
+          1,
+          1
+        ],
+        8
+      ],
+      [
+        [
+          1,
+          0,
+          0
+        ],
+        7
+      ],
+      [
+        [
+          1,
+          0,
+          1
+        ],
+        5
+      ],
+      [
+        [
+          1,
+          1
+        ],
+        6
+      ],
+      [
+        [
+          1,
+          2,
+          0
+        ],
+        9
+      ],
+      [
+        [
+          2,
+          0
+        ],
+        5
+      ]
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "title": "Certified Verification of Alpha-Beta Pruning via Monadic Continuations",
+  "authors": ["Lluis Eriksson"],
+  "abstract": "We construct a standalone zero-dependency Lean 4.35.0 formalization of 18 core monadic alpha-beta pruning theorems—including full mutually recursive inductive proofs of Lemma 2, Theorem 1, Corollaries 1(a)-(b) and 2, Reader and Continuation monad laws, tie-preserving pickMax/pickMin, and the exact Wikipedia 36-leaf tree (zero sorry, zero warnings, zero Classical.choice)—for Martin Hotzel Escardo and Paulo Oliva (arXiv:2611.32320, Nov 2026), paired with a zero-floating-point exact discrete four-mode certificate verifier (ALPHABETA-MONAD-CERT-1.0). Across 16 canonical certificates (0.092-103.002 ms, total 124.66 ms), all exact leaf-evaluation traces, aspiration-window regimes, Definition 2 optimal-play witnesses, and full history-dependent Tic-Tac-Toe pruning (9! = 362,880 to 9,335 plays, 38.873x speedup) replay deterministically while rejecting 60/60 live adversarial forgery attacks.",
+  "primary_domain": "Computer Science",
+  "secondary_domains": ["Programming Languages", "Artificial Intelligence", "Formal Verification"],
+  "keywords": [
+    "alpha-beta pruning",
+    "monadic continuations",
+    "game trees",
+    "minimax",
+    "optimal play",
+    "tie-breaking",
+    "Lean 4",
+    "exact discrete certificates"
+  ],
+  "license": "CC-BY-4.0",
+  "code_license": "MIT",
+  "repository_url": "https://github.com/lluiseriksson/alphabeta-monadic-continuations-certificates",
+  "reference_work": {
+    "authors": ["Martín Hötzel Escardó", "Paulo Oliva"],
+    "title": "Alpha-Beta Pruning via Monadic Continuations",
+    "arxiv_id": "2611.32320",
+    "date": "2026-11-24"
+  },
+  "operator_conflict": true,
+  "ai_assistance_disclosure": "Prepared by sole author Lluis Eriksson with AI coding, formalization, and drafting assistance from Google Antigravity; all Lean 4 proofs, exact discrete certificates, and adversarial tests were independently compiled and machine-verified locally."
+}

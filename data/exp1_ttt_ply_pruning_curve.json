@@ -1,0 +1,164 @@
+{
+  "rows": [
+    {
+      "ply": 0,
+      "prefix": [],
+      "exhaustive_leaves": 362880,
+      "ab_leaves": 9335,
+      "speedup_ratio": 38.873,
+      "optimal_val": 0,
+      "optimal_play": [
+        0,
+        4,
+        1,
+        2,
+        6,
+        3,
+        5,
+        7,
+        8
+      ]
+    },
+    {
+      "ply": 1,
+      "prefix": [
+        0
+      ],
+      "exhaustive_leaves": 40320,
+      "ab_leaves": 1230,
+      "speedup_ratio": 32.78,
+      "optimal_val": 0,
+      "optimal_play": [
+        0,
+        4,
+        1,
+        2,
+        6,
+        3,
+        5,
+        7,
+        8
+      ]
+    },
+    {
+      "ply": 2,
+      "prefix": [
+        0,
+        4
+      ],
+      "exhaustive_leaves": 5040,
+      "ab_leaves": 423,
+      "speedup_ratio": 11.915,
+      "optimal_val": 0,
+      "optimal_play": [
+        0,
+        4,
+        1,
+        2,
+        6,
+        3,
+        5,
+        7,
+        8
+      ]
+    },
+    {
+      "ply": 3,
+      "prefix": [
+        0,
+        4,
+        1
+      ],
+      "exhaustive_leaves": 720,
+      "ab_leaves": 68,
+      "speedup_ratio": 10.588,
+      "optimal_val": 0,
+      "optimal_play": [
+        0,
+        4,
+        1,
+        2,
+        6,
+        3,
+        5,
+        7,
+        8
+      ]
+    },
+    {
+      "ply": 4,
+      "prefix": [
+        0,
+        4,
+        1,
+        2
+      ],
+      "exhaustive_leaves": 120,
+      "ab_leaves": 28,
+      "speedup_ratio": 4.286,
+      "optimal_val": 0,
+      "optimal_play": [
+        0,
+        4,
+        1,
+        2,
+        6,
+        3,
+        5,
+        7,
+        8
+      ]
+    },
+    {
+      "ply": 5,
+      "prefix": [
+        0,
+        4,
+        1,
+        2,
+        6
+      ],
+      "exhaustive_leaves": 24,
+      "ab_leaves": 10,
+      "speedup_ratio": 2.4,
+      "optimal_val": 0,
+      "optimal_play": [
+        0,
+        4,
+        1,
+        2,
+        6,
+        3,
+        5,
+        7,
+        8
+      ]
+    },
+    {
+      "ply": 6,
+      "prefix": [
+        0,
+        4,
+        1,
+        2,
+        6,
+        3
+      ],
+      "exhaustive_leaves": 6,
+      "ab_leaves": 4,
+      "speedup_ratio": 1.5,
+      "optimal_val": 0,
+      "optimal_play": [
+        0,
+        4,
+        1,
+        2,
+        6,
+        3,
+        5,
+        7,
+        8
+      ]
+    }
+  ]
+}

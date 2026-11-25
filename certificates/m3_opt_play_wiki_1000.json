@@ -1,0 +1,380 @@
+{
+  "schema_version": "ALPHABETA-MONAD-CERT-1.0",
+  "cert_id": "m3_opt_play_wiki_1000",
+  "mode": "optimal_play_witness_cert",
+  "reference": "Escardo-Oliva arXiv:2611.32320 Sec. 5 Cor. 2 (wiki optimal play [1,0,0,0])",
+  "payload": {
+    "tree": {
+      "kind": "max",
+      "moves": [
+        0,
+        1,
+        2
+      ],
+      "children": [
+        {
+          "kind": "min",
+          "moves": [
+            0,
+            1
+          ],
+          "children": [
+            {
+              "kind": "max",
+              "moves": [
+                0,
+                1
+              ],
+              "children": [
+                {
+                  "kind": "min",
+                  "moves": [
+                    0,
+                    1,
+                    2
+                  ],
+                  "children": [
+                    {
+                      "kind": "leaf",
+                      "val": 5
+                    },
+                    {
+                      "kind": "leaf",
+                      "val": 6
+                    },
+                    {
+                      "kind": "leaf",
+                      "val": 6
+                    }
+                  ]
+                },
+                {
+                  "kind": "min",
+                  "moves": [
+                    0,
+                    1,
+                    2
+                  ],
+                  "children": [
+                    {
+                      "kind": "leaf",
+                      "val": 7
+                    },
+                    {
+                      "kind": "leaf",
+                      "val": 4
+                    },
+                    {
+                      "kind": "leaf",
+                      "val": 5
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "max",
+              "moves": [
+                0,
+                1
+              ],
+              "children": [
+                {
+                  "kind": "min",
+                  "moves": [
+                    0,
+                    1,
+                    2
+                  ],
+                  "children": [
+                    {
+                      "kind": "leaf",
+                      "val": 3
+                    },
+                    {
+                      "kind": "leaf",
+                      "val": 3
+                    },
+                    {
+                      "kind": "leaf",
+                      "val": 3
+                    }
+                  ]
+                },
+                {
+                  "kind": "min",
+                  "moves": [
+                    0,
+                    1,
+                    2
+                  ],
+                  "children": [
+                    {
+                      "kind": "leaf",
+                      "val": 3
+                    },
+                    {
+                      "kind": "leaf",
+                      "val": 3
+                    },
+                    {
+                      "kind": "leaf",
+                      "val": 3
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "min",
+          "moves": [
+            0,
+            1
+          ],
+          "children": [
+            {
+              "kind": "max",
+              "moves": [
+                0,
+                1
+              ],
+              "children": [
+                {
+                  "kind": "min",
+                  "moves": [
+                    0,
+                    1,
+                    2
+                  ],
+                  "children": [
+                    {
+                      "kind": "leaf",
+                      "val": 6
+                    },
+                    {
+                      "kind": "leaf",
+                      "val": 6
+                    },
+                    {
+                      "kind": "leaf",
+                      "val": 6
+                    }
+                  ]
+                },
+                {
+                  "kind": "min",
+                  "moves": [
+                    0,
+                    1,
+                    2
+                  ],
+                  "children": [
+                    {
+                      "kind": "leaf",
+                      "val": 6
+                    },
+                    {
+                      "kind": "leaf",
+                      "val": 9
+                    },
+                    {
+                      "kind": "leaf",
+                      "val": 9
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "max",
+              "moves": [
+                0,
+                1
+              ],
+              "children": [
+                {
+                  "kind": "min",
+                  "moves": [
+                    0,
+                    1,
+                    2
+                  ],
+                  "children": [
+                    {
+                      "kind": "leaf",
+                      "val": 7
+                    },
+                    {
+                      "kind": "leaf",
+                      "val": 7
+                    },
+                    {
+                      "kind": "leaf",
+                      "val": 7
+                    }
+                  ]
+                },
+                {
+                  "kind": "min",
+                  "moves": [
+                    0,
+                    1,
+                    2
+                  ],
+                  "children": [
+                    {
+                      "kind": "leaf",
+                      "val": 7
+                    },
+                    {
+                      "kind": "leaf",
+                      "val": 7
+                    },
+                    {
+                      "kind": "leaf",
+                      "val": 7
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "min",
+          "moves": [
+            0,
+            1
+          ],
+          "children": [
+            {
+              "kind": "max",
+              "moves": [
+                0,
+                1
+              ],
+              "children": [
+                {
+                  "kind": "min",
+                  "moves": [
+                    0,
+                    1,
+                    2
+                  ],
+                  "children": [
+                    {
+                      "kind": "leaf",
+                      "val": 5
+                    },
+                    {
+                      "kind": "leaf",
+                      "val": 5
+                    },
+                    {
+                      "kind": "leaf",
+                      "val": 5
+                    }
+                  ]
+                },
+                {
+                  "kind": "min",
+                  "moves": [
+                    0,
+                    1,
+                    2
+                  ],
+                  "children": [
+                    {
+                      "kind": "leaf",
+                      "val": 5
+                    },
+                    {
+                      "kind": "leaf",
+                      "val": 5
+                    },
+                    {
+                      "kind": "leaf",
+                      "val": 5
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "max",
+              "moves": [
+                0,
+                1
+              ],
+              "children": [
+                {
+                  "kind": "min",
+                  "moves": [
+                    0,
+                    1,
+                    2
+                  ],
+                  "children": [
+                    {
+                      "kind": "leaf",
+                      "val": 9
+                    },
+                    {
+                      "kind": "leaf",
+                      "val": 9
+                    },
+                    {
+                      "kind": "leaf",
+                      "val": 9
+                    }
+                  ]
+                },
+                {
+                  "kind": "min",
+                  "moves": [
+                    0,
+                    1,
+                    2
+                  ],
+                  "children": [
+                    {
+                      "kind": "leaf",
+                      "val": 9
+                    },
+                    {
+                      "kind": "leaf",
+                      "val": 9
+                    },
+                    {
+                      "kind": "leaf",
+                      "val": 9
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "alpha": -1000,
+    "beta": 1000,
+    "claimed_optimal_val": 6,
+    "claimed_optimal_play": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "claimed_ply_values": [
+      6,
+      6,
+      6,
+      6,
+      6
+    ],
+    "claimed_def2_optimal": true
+  }
+}
